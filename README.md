@@ -1,6 +1,6 @@
 # OPP
 
-kế thừa
+KẾ THỪA
 public class SuperST extends Student{
 public SuperST(String id, String name, String classroom) {
 		// TODO Auto-generated constructor stub
@@ -31,7 +31,7 @@ Kết quả:
 Programmer salary is: 1000.0
 Bonus of Programmer is: 150
 
-đa hình  
+ĐA HÌNH
 (class student and class SuperST)
 
 
@@ -47,7 +47,7 @@ Bonus of Programmer is: 150
 	}
   
   
-trừu tượng
+TRỪU TƯỢNG
 
 
  public abstract class Bike {
@@ -73,7 +73,7 @@ public class Cat implements Animal{
 	}
 }
 
-bao đóng  
+BAO ĐÓNG  
 các thuộc tính trên chỉ xài được trong class của nó đều đặt là private 
 muốn gọi lại dùng chỉ được gọi từ getter setter
 
