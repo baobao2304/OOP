@@ -25,7 +25,7 @@ public class test {
 		String stClr = sc.nextLine();
 		System.out.println("id:");
 		String stID = sc.nextLine();
-		
+		//bao đóng
 		st.setName(stName);
 		st.setClassroom(stClr);
 		st.setId(stID);
@@ -36,8 +36,7 @@ public class test {
 		System.out.println("call gia tri cha tu gia tri con   super study"+spSt.toString());
 		System.out.println("call ham cua con "+spSt.getSuperST());
 		
-		System.out.println("tinh da hinh");
-		
+		System.out.println("vi du ve tinh da hinh");
 		Student st1 = new SuperST();
 		System.out.println("call da hinh ra :"+st1.getSuperST());
 		
