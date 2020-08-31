@@ -14,7 +14,10 @@ Abstract"
 	+ Trên các phương thức - khi các lớp con phải cung cấp việc triển khai thực tế, 
 	nhưng bạn muốn gọi các phương thức này (bất kể chúng được triển khai như thế nào) trong lớp này.
 	+ trên các lớp - để biểu thị rằng lớp có thể có các phương thức trừu tượng.
-
+static :
+	+ được sử dụng để được sử dụng khi bạn không cần một thể hiện của một lớp (tức là đối tượng) để sử dụng nó:
+	+ cho các trường - khi bạn muốn có một trường toàn cầu
+	+ cho các phương thức - khi bạn cần các hàm tiện ích không phụ thuộc vào trạng thái đối tượng
 Final:
 	+ chỉ định giá trị 1 lần không thể thay đổi
 	+ trên các lớp và phương thức khi không muốn mở rộng ghi đè thì sử dụng nó
@@ -57,7 +60,7 @@ ex:
 
 
   Scope of Variables In Java
-	+ là phạm vi hoạt động của biến 
+	+ là phạm vi hoạt động của biến tại thời điểm biên dịch thực thi
 	+ khi bạn không có khởi tạo tham số mặt định như các biến đã được khai báo với 1 giá trị  thì 
 	nếu bạn khởi tạo  mới 1 class "test t = new test();" thì nó sẽ tự mặt định các giá trị biến như các giá trị bạn 
 	đã cho trước.
