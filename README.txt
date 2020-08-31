@@ -168,6 +168,9 @@ Garbage Collection in Java(Thu gom rác)
 	tóm tắt lại những gì đã học:
 		OOP có gì ?
 			kế thừa , đa hình , bao đóng , trừ tượng
+		Cần biết gì nữa ? 
+			cách sử dụng trong scope  và Access Modifier
+			ngoài ra còn Garbage Collection 
 nguồn : 
 https://viblo.asia/p/private-public-protected-va-default-trong-java-WAyK80yWKxX
 
