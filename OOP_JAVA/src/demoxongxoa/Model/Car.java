@@ -17,6 +17,7 @@ public class Car {
 		this.name = name;
 		this.device = device;
 	}
+	
 	public String getId() {
 		return id;
 	}

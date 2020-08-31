@@ -18,7 +18,7 @@ public class Student {
 	}
 	private String name;
 	private String classroom;
-	private String id;
+	protected String id;
 	public String getSuperST() {
 		return "student man la anh :3";
 	}

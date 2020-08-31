@@ -3,11 +3,13 @@ package demoxongxoa;
 import demoxongxoa.Model.Student;
 
 public class SuperST extends Student{
+	
 	// khoi tao class
 	private String name;
 	private String classroom;
 	private String id;
 	// khoi tao mac dinh 
+	
 	public SuperST() {
 		
 		this.id = "123 sp";
@@ -34,5 +36,20 @@ public class SuperST extends Student{
 	
 	public String getSuperST() {
 		return "super man la anh :3";
+	}
+}
+class Vehicle {
+	  protected String brand = "Ford";
+	  public void honk() {
+	    System.out.println("Tuut, tuut!");
+	  }
+	}
+
+class Car extends Vehicle {
+	private String modelName = "Mustang";
+	public static void main(String[] args) {
+	Car myFastCar = new Car();
+	myFastCar.honk();
+	System.out.println(myFastCar.brand + " " + myFastCar.modelName);
 	}
 }
